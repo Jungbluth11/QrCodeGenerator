@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="QrCodeGenerator.Views.UrlGeneratorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="clr-namespace:QrCodeGenerator.ViewModels"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <viewModel:UrlGeneratorPageViewModel />
+    </Page.DataContext>
+    <StackPanel VerticalAlignment="Top" Orientation="Horizontal">
+        <TextBlock Margin="5" Text="URL*" />
+        <TextBox
+            Width="500"
+            Margin="5"
+            Text="{Binding Url, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+    </StackPanel>
+</Page>

@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="QrCodeGenerator.Views.TextGeneratorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="clr-namespace:QrCodeGenerator.ViewModels"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <viewModel:TextGeneratorPageViewModel />
+    </Page.DataContext>
+    <StackPanel>
+        <TextBox
+            Width="500"
+            Height="200"
+            Margin="5"
+            AcceptsReturn="True"
+            Text="{Binding Text, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        <CheckBox
+            x:Uid="RemoveWhitespace"
+            Margin="5"
+            IsChecked="{Binding IsRemoveWhitespaceChecked, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+    </StackPanel>
+</Page>

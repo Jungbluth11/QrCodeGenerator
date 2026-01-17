@@ -1,0 +1,29 @@
+﻿<ContentDialog
+    x:Class="QrCodeGenerator.Views.PrintQrCodeDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModel="clr-namespace:QrCodeGenerator.ViewModels"
+    Title="{Binding DialogTitle, Mode=OneTime}"
+    CloseButtonText="{Binding BtnCancalText, Mode=OneTime}"
+    Loaded="PrintQrCodeDialog_OnLoaded"
+    PrimaryButtonCommand="{Binding PrintCommand}"
+    PrimaryButtonText="{Binding BtnPrintText, Mode=OneTime}"
+    Style="{ThemeResource DefaultContentDialogStyle}">
+    <ContentDialog.DataContext>
+        <viewModel:PrintQrCodeDialogViewModel />
+    </ContentDialog.DataContext>
+    <StackPanel>
+        <TextBlock x:Uid="SelectPrinter" Margin="5" />
+        <ComboBox
+            Margin="5"
+            ItemsSource="{Binding Printers}"
+            SelectedValue="{Binding CurrentSelectedPrinter, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        <TextBlock x:Uid="Copies" Margin="5" />
+        <NumberBox
+            Margin="5"
+            KeyDown="UIElement_OnKeyDown"
+            Minimum="1"
+            SpinButtonPlacementMode="Compact"
+            Value="{Binding Copies, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+    </StackPanel>
+</ContentDialog>

@@ -1,0 +1,15 @@
+﻿<ContentDialog
+    x:Class="QrCodeGenerator.Views.ColorPickerDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModel="clr-namespace:QrCodeGenerator.ViewModels"
+    CloseButtonText="{Binding BtnCancalText, Mode=OneTime}"
+    Loaded="ColorPickerDialog_OnLoaded"
+    PrimaryButtonCommand="{Binding SubmitCommand}"
+    PrimaryButtonText="OK"
+    Style="{ThemeResource DefaultContentDialogStyle}">
+    <ContentDialog.DataContext>
+        <viewModel:ColorPickerDialogViewModel />
+    </ContentDialog.DataContext>
+    <ColorPicker IsMoreButtonVisible="True" Color="{Binding SelectedColor, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+</ContentDialog>

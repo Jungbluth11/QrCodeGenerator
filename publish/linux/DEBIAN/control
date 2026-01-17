@@ -1,0 +1,8 @@
+Package: QrCodeGenerator
+Version: 1.0.0
+Architecture: all
+Essential: no
+Priority: optional
+Depends: dotnet-runtime-10.0
+Maintainer: Jungbluth
+Description: An easy to use QR Code generator with many customization options.

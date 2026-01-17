@@ -1,0 +1,32 @@
+<Project ToolsVersion="15.0">
+  <!--
+    To update the version of Uno, you should instead update the Sdk version in the global.json file.
+
+    See https://aka.platform.uno/using-uno-sdk for more information.
+    See https://aka.platform.uno/using-uno-sdk#implicit-packages for more information regarding the Implicit Packages.
+  -->
+  <ItemGroup>
+    <PackageVersion Include="BitmapToVector" Version="1.16.3" />
+    <PackageVersion Include="BitmapToVector.SkiaSharp" Version="1.16.3" />
+    <PackageVersion Include="CommunityToolkit.Uwp.Controls.SettingsControls" Version="8.2.251219" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.SettingsControls" Version="8.2.251219" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.2" />
+    <PackageVersion Include="FluentAssertions" Version="6.12.0" />
+    <PackageVersion Include="FluentIcons.WinUI" Version="2.0.316" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageVersion Include="NUnit" Version="4.1.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageVersion Include="GitHubActionsTestLogger" Version="2.3.3" />
+    <PackageVersion Include="QRCoder" Version="1.7.0" />
+    <PackageVersion Include="Riverside.Toolkit.Uno.Controls.Settings" Version="2.0.0" />
+    <PackageVersion Include="SixLabors.ImageSharp" Version="3.1.12" />
+    <PackageVersion Include="Uno.CommunityToolkit.WinUI.UI" Version="7.1.204" />
+    <PackageVersion Include="Uno.Fonts.Fluent" Version="2.8.1" />
+    <PackageVersion Include="UnoGroupBox" Version="1.1.3" />
+    <PackageVersion Include="VectSharp.ImageSharpUtils" Version="2.0.1" />
+    <PackageVersion Include="VectSharp.PDF" Version="3.2.0" />
+    <PackageVersion Include="VectSharp.Raster" Version="2.5.0" />
+    <PackageVersion Include="VectSharp.SVG" Version="1.10.2" />
+    <PackageVersion Include="Velopack" Version="0.0.1298" />
+  </ItemGroup>
+</Project>

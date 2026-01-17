@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="QrCodeGenerator.Views.CryptoCurrencyGeneratorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="clr-namespace:QrCodeGenerator.ViewModels"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <viewModel:CryptoCurrencyGeneratorPageViewModel />
+    </Page.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="1"
+            Orientation="Horizontal">
+            <RadioButton
+                Margin="5"
+                Content="Bitcoin"
+                IsChecked="{Binding IsBitcoinSelected, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <RadioButton
+                Margin="5"
+                Content="Bitcoin Cash"
+                IsChecked="{Binding IsBitcoinCashSelected, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <RadioButton
+                Margin="5"
+                Content="Litecoin"
+                IsChecked="{Binding IsLitecoinSelected, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        </StackPanel>
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="5"
+            Text="{Binding AddressDescriptor}" />
+        <TextBox
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="5"
+            Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        <TextBlock
+            x:Uid="Amount"
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="5" />
+        <NumberBox
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="5"
+            Value="{Binding Amount, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        <CheckBox
+            Grid.Row="3"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            Content="{Binding ShowTextOnImageDescriptor, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+            IsChecked="{Binding ShowTextOnImage, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+    </Grid>
+</Page>

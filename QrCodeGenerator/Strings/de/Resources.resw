@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>QR-Code Generator</value>
+  </data>
+  <data name="MenuText.Content" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="MenuWiFi.Content" xml:space="preserve">
+    <value>WIFI</value>
+  </data>
+  <data name="MenuURL.Content" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="MenuBookmark.Content" xml:space="preserve">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="MenuMail.Content" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="MenuSMS.Content" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="MenuMMS.Content" xml:space="preserve">
+    <value>MMS</value>
+  </data>
+  <data name="MenuGeolocation.Content" xml:space="preserve">
+    <value>Geo-Koordinaten</value>
+  </data>
+  <data name="MenuPhoneNumber.Content" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="MenuWhatsAppMessage.Content" xml:space="preserve">
+    <value>WhatsApp Nachricht</value>
+  </data>
+  <data name="MenuContactData.Content" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="MenuCryptoCurrency.Content" xml:space="preserve">
+    <value>Kryptowährung</value>
+  </data>
+  <data name="LoadedGenerators.Header" xml:space="preserve">
+    <value>Geladene Generatoren</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Hell</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Dunkel</value>
+  </data>
+  <data name="QrCodeOptions.Header" xml:space="preserve">
+    <value>QR-Code Optionen</value>
+  </data>
+  <data name="QrCodeDetails.Header" xml:space="preserve">
+    <value>QR-Code Details</value>
+  </data>
+  <data name="Mode.Text" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="DesiredSize.Text" xml:space="preserve">
+    <value>Gewünschte Größe</value>
+  </data>
+  <data name="ActualSize.Text" xml:space="preserve">
+    <value>Tatsächliche Größe</value>
+  </data>
+  <data name="ModuleSize.Text" xml:space="preserve">
+    <value>Modulgröße</value>
+  </data>
+  <data name="ByteSize.Text" xml:space="preserve">
+    <value>Größe (Byte)</value>
+  </data>
+  <data name="DataSize.Text" xml:space="preserve">
+    <value>davon Daten</value>
+  </data>
+  <data name="ErrorCorrectionSize.Text" xml:space="preserve">
+    <value>davon Fehlerkorrektur</value>
+  </data>
+  <data name="ErrorCorrection.Text" xml:space="preserve">
+    <value>Fehlerkorrektur</value>
+  </data>
+  <data name="Encoding.Text" xml:space="preserve">
+    <value>Zeichenkodierung</value>
+  </data>
+  <data name="Characters.Text" xml:space="preserve">
+    <value>Zeichen</value>
+  </data>
+  <data name="NetworkType.Text" xml:space="preserve">
+    <value>Netzwerktyp</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="HiddenNetwork.Content" xml:space="preserve">
+    <value>Verstecktes Netzwerk</value>
+  </data>
+  <data name="FormatPassword.Content" xml:space="preserve">
+    <value>Formatiere Passwort</value>
+  </data>
+  <data name="InGroupsOf.Text" xml:space="preserve">
+    <value>in Gruppen von:</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="MailAddress.Text" xml:space="preserve">
+    <value>E-Mail Adresse</value>
+  </data>
+  <data name="Subject.Text" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="Body.Text" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="Message.Text" xml:space="preserve">
+    <value>Nachricht</value>
+  </data>
+  <data name="Firstname.Text" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="Lastname.Text" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+  <data name="Nickname.Text" xml:space="preserve">
+    <value>Anzeigename</value>
+  </data>
+  <data name="Phone.Text" xml:space="preserve">
+    <value>Festnetz</value>
+  </data>
+  <data name="MobilePhone.Text" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="WorkPhone.Text" xml:space="preserve">
+    <value>Arbeit</value>
+  </data>
+  <data name="Birthday.Text" xml:space="preserve">
+    <value>Geburtstag</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Webseite</value>
+  </data>
+  <data name="Street.Text" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+  <data name="HouseNumber.Text" xml:space="preserve">
+    <value>Hausnummer</value>
+  </data>
+  <data name="City.Text" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="ZipCode.Text" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="Country.Text" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>Notiz</value>
+  </data>
+  <data name="StateRegion.Text" xml:space="preserve">
+    <value>Bundesland/Region</value>
+  </data>
+  <data name="Organization.Text" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="OrganizationTitle.Text" xml:space="preserve">
+    <value>Titel in Firma</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Location.Text" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="StartTime.Text" xml:space="preserve">
+    <value>Beginn</value>
+  </data>
+  <data name="EndTime.Text" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="AllDayEvent.Content" xml:space="preserve">
+    <value>Ganztägig</value>
+  </data>
+  <data name="StringDefault" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="StringNone" xml:space="preserve">
+    <value>Kein</value>
+  </data>
+  <data name="StringErrorEmptyMessage" xml:space="preserve">
+    <value>darf nicht leer sein.</value>
+  </data>
+  <data name="PasswordType.Header" xml:space="preserve">
+    <value>Passwort-Typ:</value>
+  </data>
+  <data name="ShowCredentialsOnQrCode.Content" xml:space="preserve">
+    <value>Zeige Zugangsdaten auf QR-Code</value>
+  </data>
+  <data name="GenerateModeOptimalSize" xml:space="preserve">
+    <value>Optimale Größe</value>
+  </data>
+  <data name="GenerateModeFixedSize" xml:space="preserve">
+    <value>Feste Größe</value>
+  </data>
+  <data name="GenerateModeModuleSize" xml:space="preserve">
+    <value>Modulgröße</value>
+  </data>
+  <data name="StringErrorNoGeneratorsSelected" xml:space="preserve">
+    <value>Es wurden keine Generatoren ausgewählt die angezeigt werden können.
+Bitte mindestens einen auswählen.</value>
+  </data>
+  <data name="UseUtf8Bom.Header" xml:space="preserve">
+    <value>Nutze UTF-8 BOM</value>
+  </data>
+  <data name="RadioButtonYes.Content" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="RadioButtonNo.Content" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="RemoveWhitespace.Content" xml:space="preserve">
+    <value>Entferne Leerzeichen und Zeilenumbrüche</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="BtnSelectColor.Content" xml:space="preserve">
+    <value>Farbe auswählen</value>
+  </data>
+  <data name="BtnSelectLogo.Content" xml:space="preserve">
+    <value>Logo auswählen</value>
+  </data>
+  <data name="ForegroundColor.Text" xml:space="preserve">
+    <value>QR-Code- und Textfarbe</value>
+  </data>
+  <data name="BackgroundColor.Text" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="AppearanceOptions.Header" xml:space="preserve">
+    <value>Darstellungoptionen</value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="StringCommit" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="StringErrorInValidFile" xml:space="preserve">
+    <value> ist keine gültige Datei.</value>
+  </data>
+  <data name="StringErrorDataTooLong" xml:space="preserve">
+    <value>Die QR-Code Daten sind zu groß / Der Text ist zu lang</value>
+  </data>
+  <data name="MenuSave.Label" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="MenuPrint.Label" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="MenuOpenNewWindow.Label" xml:space="preserve">
+    <value>QR-Code in neuem Fester öffnen</value>
+  </data>
+  <data name="StringErrorEmpty" xml:space="preserve">
+    <value>QR-Code ist leer.</value>
+  </data>
+  <data name="StringPrint" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="SelectPrinter.Text" xml:space="preserve">
+    <value>Drucker wählen</value>
+  </data>
+  <data name="Copies.Text" xml:space="preserve">
+    <value>Anzahl</value>
+  </data>
+  <data name="ShowTextOnQrCode.Content" xml:space="preserve">
+    <value>Zeige Text auf QR-Code</value>
+  </data>
+  <data name="StringErrorDateInPast" xml:space="preserve">
+    <value>Termin liegt in der Vergangenheit</value>
+  </data>
+  <data name="StringErrorEndDateBeforeStartDate" xml:space="preserve">
+    <value>Das Ende liegt vor dem Start</value>
+  </data>
+  <data name="StringUniversal" xml:space="preserve">
+    <value>Universell</value>
+  </data>
+  <data name="EventType.Text" xml:space="preserve">
+    <value>Event Typ</value>
+  </data>
+  <data name="AdressFormatEurope.Content" xml:space="preserve">
+    <value>Europa</value>
+  </data>
+  <data name="AdressFormatNorthAmericaAndOther.Content" xml:space="preserve">
+    <value>Nordamerika und andere</value>
+  </data>
+  <data name="StringErrorContactDataName" xml:space="preserve">
+    <value>Vorname, Name und Anzeigename könnte nicht alle leer sein. Mindestens ein Feld muss gesetzt werden.</value>
+  </data>
+  <data name="AddressOrder.Text" xml:space="preserve">
+    <value>Adressformat</value>
+  </data>
+  <data name="StringBitcoinAddress" xml:space="preserve">
+    <value>Bitcoin Adresse</value>
+  </data>
+  <data name="StringBitcoinCashAddress" xml:space="preserve">
+    <value>Bitcoin Cash Adresse</value>
+  </data>
+  <data name="StringLitecoinAddress" xml:space="preserve">
+    <value>Litecoin Adresse</value>
+  </data>
+  <data name="Amount.Text" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="ShowCryptoCurrencyAddressOnQrCode" xml:space="preserve">
+    <value>Zeige {CryptoCurrency} auf QR-Code</value>
+  </data>
+  <data name="GeolocationEncoding.Text" xml:space="preserve">
+    <value>Kodierung</value>
+  </data>
+  <data name="PhoneNumber.Text" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="ShowPhoneNumberOnQrCode.Content" xml:space="preserve">
+    <value>Zeige Telefonnummer auf QR-Code</value>
+  </data>
+  <data name="MessageRequired.Text" xml:space="preserve">
+    <value>Nachricht*</value>
+  </data>
+  <data name="PhoneNumberRequired.Text" xml:space="preserve">
+    <value>Telefonnummer*</value>
+  </data>
+  <data name="DrawQuietZones.Text" xml:space="preserve">
+    <value>Zeichne Quiet-Zones</value>
+  </data>
+</root>

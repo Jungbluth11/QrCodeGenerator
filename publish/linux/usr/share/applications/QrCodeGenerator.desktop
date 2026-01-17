@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type = Application
+Name = QR Code Generator
+Exec = /usr/bin/QrCodeGenerator/QrCodeGenerator
+Terminal = false;
